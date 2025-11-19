@@ -3,12 +3,7 @@ i am creating  this for geneal purpose.
 
 learning structure 
 javascript-learning/
-│
-├── 00-Setup/
-│   ├── installing-node.md
-│   ├── vscode-setup.md
-│   └── git-basics.md
-│
+
 ├── 01-Basics/
 │   ├── variables.md
 │   ├── data-types.md
