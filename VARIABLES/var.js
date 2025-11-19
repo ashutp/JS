@@ -20,3 +20,9 @@ console.log("Using let when you declare a variable they by default initialize as
 console.log("when you declare variable using const they are same as let but little difference is that you can't reassign the value once you declare. they can't change because they hold reference of object and value. they are not changeable meaning you can't change reference but change in value of an object is allowed.\n");
 
 
+const obj={
+    name:"ashu"
+};
+let gmail="ashukaithal09@gmail.com";
+var age=21;
+console.log(obj.name,age,gmail);
