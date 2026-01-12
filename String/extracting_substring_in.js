@@ -1,0 +1,4 @@
+console.log("\nExtracting Substrings from string crucial methods: there are mainly two method first is .slice() & second is .substring()");
+let str="ashutosh";
+console.log("\nFIRST method .slice() when you use this they take start to end point end was not inxclusive they return a new string from start to end-1 index result: eg : str='ashutosh';  str.slice(2,5) result: ',str.slice(2,5)),' they return only these index value 2,3,4 but they not include 5; and when you take indexing from and so you mark indexing with negative value eg: str.slice(-3,-1) result : ",str.slice(-3,-1));
+console.log("\nsecond mehtod .substring() similar to slice but dont take negative value :", str.substring(2,5));
