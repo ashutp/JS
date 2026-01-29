@@ -7,11 +7,11 @@
     height: 250px;
     width: 300px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 90px;
     font-size: 28px;
     text-align: center;
-    box-sizing: border-box;
-    padding: 50px;
+    /* box-sizing: border-box; */
+    padding-top: 40px;
     background-color: gray;
 }
 
@@ -19,4 +19,13 @@ button{
  padding: 5px;
  text-transform: uppercase;
  font-weight: 700;
+}
+form{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+input::placeholder{
+    color:black;
 }

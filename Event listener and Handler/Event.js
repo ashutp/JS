@@ -9,8 +9,6 @@
 //this is the standard,most powerful,and recommended way to handle events.you call it on the target element.
 // example:targetelement.addEventListener("Eventtype",functiontype);
 
-const str1="I am Happy, I am clicked.";
-const str2="I am wating for click.";
 
 function clickMe(e){
     p.textContent="I am Happy, I am clicked.";
@@ -18,14 +16,12 @@ function clickMe(e){
     parent.style.backgroundColor = "black";
 }
 
-// function clickMe2(e){
-//     p.textContent="I am wating for click.";
-//     p.style.color="black";
-//     parent.style.backgroundColor = "grey";
-// }
+
+
 
 const btn=document.getElementById("btn");
 const p=document.querySelector("p");
 const parent=document.getElementById("box");
+// Critical Point: We pass the function name onButtonClick directly. We do not call it with (). We are giving addEventListener a reference to our function—the "recipe"—to be used later.
  btn.addEventListener("click",clickMe);
 
